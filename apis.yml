@@ -1,8 +1,24 @@
 aid: pop-up-archive
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pop-up-archive.png
 name: Pop Up Archive
-description: Pop Up Archive is a company surfaced as a portfolio company of 500-global, bloomberg-beta
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Pop Up Archive was a startup that provided audio and podcast transcription, speech-to-text,
+  and searchable spoken-word archiving tools, making audio content discoverable and machine-readable.
+  It was acquired by Apple in 2017 and its independent products, developer surface, and popuparchive.com
+  domain were retired. The domain now resolves to Apple nameservers with no active host, so there is no
+  live website, developer portal, documentation, or API to enrich. This profile was surfaced as a
+  portfolio company of 500 Global and Bloomberg Beta and is retained in the API Evangelist network as a
+  historical record; no live API surface remains.
 url: https://raw.githubusercontent.com/api-evangelist/pop-up-archive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Audio
+- Transcription
+- Speech To Text
+- Podcasts
+- Archiving
+- Defunct
+x-status: defunct
+x-status-reason: acquired-by-apple-2017-domain-not-resolving
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,8 @@ maintainers:
 common:
 - type: Website
   url: https://popuparchive.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
