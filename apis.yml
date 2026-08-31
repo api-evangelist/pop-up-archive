@@ -45,7 +45,7 @@ tags:
 - Company
 - Audio
 - Transcription
-- Speech-to-Text
+- Speech To Text
 - Podcasts
 - Archiving
 - Defunct
@@ -66,6 +66,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/apple/
+  name: Apple
+  x-relationship: acquired
+  x-evidence: "It was acquired by Apple in 2017 and its independent products, developer surface, and popuparchive."
 - type: Website
   url: https://popuparchive.com
 x-enrichment:
